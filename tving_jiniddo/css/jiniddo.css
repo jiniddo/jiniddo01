@@ -1,0 +1,80 @@
+*{
+    font-family: 'Montserrat', 'roboto', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.d-none{ display: none !important;}
+.h0 { height: 0 !important; overflow: hidden !important;
+      padding: 0; margin: 0 !important;}
+
+.navbar-inverse{
+      background-color: #ffc107;
+}   
+
+
+@media (min-width: 1440px){
+      .container {
+            width: 1410px;
+      }
+}
+
+@media (min-width: 1920px){
+      .container {
+            width: 1600px;
+      }
+}
+.item{
+      background-color: #ffc107";
+}
+
+.logo_bottom{
+     margin-left: 120px;
+     background-color: #222;
+}
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
